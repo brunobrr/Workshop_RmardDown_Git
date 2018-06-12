@@ -8,45 +8,37 @@ output: word_document
 
 
 - basta fazer uma única vez
-```
+```{r}
 git config --global user.name "Karlo Guidoni Martins"
-
 git config --global user.email "kguidonimartins@gmail.com"
 ```
 
 - abra o git bash na pasta de arquivos
-```
-ls # lista os arquivos da pasta
-```
-
-```
-git init # inicia o repo de git
-```
-
-```
-git status # mostra o status do repo
-```
-
-```
-git add . # adiciona os arquivos ao repositório
-```
-
-``` 
-git commit -m "minha mensagem"
-```
-
-- retorne o hash (número) das modificações
 ```{r}
-git log 
+ls # lista os arquivos da pasta
+git init # inicia o repo de git
+git status # mostra o status do repo
+git add . # adiciona os arquivos ao repositório
+git commit -m "minha mensagem"
+git log # retorne o hash (número) das modificações
+
 ```
 
-----
-
-- No guihub, criar uma pasta 
-
+- No site do guihub, criar um novo repositório e em seguida, no terminal programa guit bash:
 ```{r}
 git rm --cached .Rproj.*
-git status
+git status .
+git commit -m "Deletar arquivos desnecessarios do Rstudio"
+git push #mandar arquivos para nuvem
+```
 
+- Funções uteis
+```{r}
+gitk # ver a time line do repositório
+```
+
+- No arquivo guitignore...
+```{r}
+artigos/*pdf # não acompanhar modificações nos arquivos pdf
 ```
 
