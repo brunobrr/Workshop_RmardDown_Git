@@ -23,7 +23,6 @@ ls # lista os arquivos da pasta
 git init # inicia o repo de git
 ```
 
-
 ```
 git status # mostra o status do repo
 ```
@@ -32,12 +31,22 @@ git status # mostra o status do repo
 git add . # adiciona os arquivos ao repositório
 ```
 
-
 ``` 
 git commit -m "minha mensagem"
 ```
 
+- retorne o hash (número) das modificações
 ```{r}
-git log # retorne o hash (número) das modificações
+git log 
+```
+
+----
+
+- No guihub, criar uma pasta 
+
+```{r}
+git rm --cached .Rproj.*
+git status
+
 ```
 
