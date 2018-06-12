@@ -1,0 +1,12 @@
+Requerimentos:
+R - versão 3.5.0 ou superior (usuários Linux, a versão 3.4.4 é suficiente!)
+RStudio - versão 1.1.453 ou superior
+Git - versão 2.17.0 ou superior <https://git-scm.com/downloads>
+Microsoft Word ou Libreoffice Writer - qualquer versão
+Pandoc  - versão 2.2.1 ou superior (usuários Windows baixar arquivos com a extensão .msi) <https://github.com/jgm/pandoc/releases/tag/2.2.1>
+Mendeley ou Zotero (usuários do Zotero, baixem a extensão Better Bibtex <https://retorque.re/zotero-better-bibtex/installation/>) - qualquer versão
+Pacotes para o R: copie o código no link a seguir e cole no R <http://bit.ly/curso-rmarkdown>
+Registro em gitlab.com e github.com 
+Recomendo fortemente o cadastro para o pacote estudantil do github <https://education.github.com/pack/join>. O aceite é imediato, basta um email institucional, que todxs xs alunxs da pós têm! 
+
+Mais informações sobre o email institucional da UFG: https://cercomp.ufg.br/n/1535-email-institucional 
